@@ -1,0 +1,52 @@
+body{margin: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    padding: 15px;
+}
+#ejemplo{
+    color: aqua;
+}
+.header_title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(226, 43, 150);
+}
+h2, p{
+    margin-bottom: 50px;
+}
+.card_title{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+}
+
+.card--highlight{
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    position: relative;
+}
+
+.header_text{
+    position: absolute;
+    top: 5;
+    right: 3;
+
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: rgb(102, 139, 0);
+    forced-color-adjust: auto ;
+
+}
+
+
